@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <title>Pop Up View</title>
+  <link rel="stylesheet" href="css/index.css" />
+</head>
+
+<body>
+  <div class="row">
+    <div class="row">
+      <div class="col-lg-12 col-12">
+        <div style="position:fixed; top:0; width:105%; z-index:100;">
+          <div class="headerText" id="headerTextData">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-lg-12 col-12">
+        <div class="slide-down" style=" margin-left: 15px; position:fixed;  top:0; width:100%;  z-index:100; background-color: white;">
+          <div class="cardContainer">
+            <p class="cardHeaderText1">More Deals For You!</p>
+            <p class="cardHeaderText2">More disCounts for your flight</p>
+            <span onclick="closeCoupons()" style="margin-left: 20px; cursor: pointer;">
+              <img src="img/close.png" style="margin-top: 5%;
+              margin-left: 40%;" />
+            </span>
+            <div id="cardDataId" style="flex-direction: row; float: left; display: flex;">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row" style="background-color: blueviolet; overflow: visible;">
+      <div class="col-lg-12 col-12">
+        <div>
+          <h1 class="h1TgsAfterHeader">Punny heading</h1>
+          <p class="pTagAfterHeader">Learn, ipsum dolor sit amet consectetur adipising elit. Fugiat cumque ducimus ex eius nam magni quae quas velit. </p>
+        </div>
+      </div>
+      <div class="col-lg-12 commingSoon">
+        <button class="buttonText">comming soon</button>
+      </div>
+      <div class="formDiv col-lg-12">
+        <form id="issueInputForm" class="formTag">
+          <div class="formDivInput form-group">
+            <label for="firstName" style="text-align: left">First Name</label>
+            <input type="text" class="form-control" id="firstName" placeholder="First Name">
+          </div>
+          <div class="formDivInput form-group">
+            <label for="lastName">Last Name</label>
+            <input type="text" class="form-control" id="lastName" placeholder="Last Name">
+          </div>
+          <div class="formDivInput form-group">
+            <label for="email">Email Address</label>
+            <input type="text" class="form-control" id="email" placeholder="Enter Email">
+            <p style="color: purple; font-size: 10px;">We'll never share your email with anyone else.<span style="color: black; font-size: 12px;">(privacy Policy)</span>
+            </p>
+          </div>
+          <div class="formDivInput form-group">
+            <label for="phone">Phone</label>
+            <input type="text" class="form-control" id="phone" placeholder="Phone">
+          </div>
+          <div class="formDivInput form-group">
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label>
+          </div>
+          <div class="formDivInput form-group">
+            <label for="birthday">Birthday:</label>
+            <input type="date" id="birthday" name="birthday">
+          </div>
+          <div style="text-align: center;">
+            <button type="submit" class="submitButton btn btn-primary">SUBMIT</button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+  </div>
+  <script defer src="src/index.js" charset="utf-8"></script>
+</body>
+
+</html>

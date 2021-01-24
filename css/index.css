@@ -1,0 +1,139 @@
+.headerText{
+  height: -webkit-fill-available;
+  background: linear-gradient(to right, #8169f5, #4293e5 50%, #67d8d2 100%);
+  flex-direction: row;
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  flex: 0.2 !important;
+  
+}
+.textStle{
+  margin-left: 5%;
+  margin-right: 3%;
+  font-weight: bold;
+  font-size: 15px;
+}
+.h1TgsAfterHeader{
+  color: white; 
+  margin-top: 3% ;
+  text-align: center;
+}
+.pTagAfterHeader{
+  width: 23%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+.buttonText{
+  color: blue;
+}
+.formDiv{
+  margin-top: 8%;
+  margin-bottom: 10%;
+  
+}
+.formTag{
+  width: 35%;
+  margin-left: auto;
+  margin-right: auto;
+  background: linear-gradient(to right,#8467f5,#577eed 20%, #4293e5 50%, #6de2d0 100%);
+  height: -webkit-fill-available;
+}
+.submitButton{
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2%;
+}
+
+.commingSoon{
+  margin-left:auto ; 
+  margin-right:auto;
+  text-align: center;
+}
+.formDivInput{
+  margin: 3%
+}
+div.slide-down {
+  width:100%;
+  overflow:hidden;
+}
+div.slide-down .cardContainer{
+  animation: 5s slide-down;
+  margin-top:0%;
+}
+@keyframes slide-down {
+  from {
+    margin-top: -50%;
+    height: 100%; 
+  }
+  to {
+    margin-top: 0%;
+    height: 100%;
+  }
+}
+@keyframes slide-up {
+  from {
+    margin-top: 0%;
+  }
+  to {
+    margin-top: -100%;
+  }
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  min-width: 130px;
+  max-width: 200px;
+  margin-left: 20px;
+  margin-bottom: 10px;
+  font-family: arial;
+  height: 40%;
+  border-radius: 5%;
+}
+.cuponCode {
+  color: black;
+  font-size: 15px;
+  margin-left: 10px; 
+}
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  text-align: center;
+  cursor: pointer;
+  margin-bottom: 20px;
+  border-radius: 28px;
+  font-size: 15px; 
+  background-color: #4facfb
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+.cardHeaderText1{
+  font-size: 36px; 
+  font-weight: bold; 
+  color: black; 
+  margin-left: 15px;
+}
+.cardHeaderText2{
+  color: black;
+  font-size: 20px; 
+  font-weight: bold;
+  margin-left: 15px;
+}
+.marginLeft10{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.rs500{
+  font-size: 24px;
+  font-weight: bold;
+}
+.validity{
+  color: gray;
+  font-size: 12px;
+  margin-right: 10px;
+}
